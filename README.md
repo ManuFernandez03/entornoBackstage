@@ -23,8 +23,8 @@ export CLIENT_SECRET=<tu_client_secret_de_github>
 # Añadir Template
 Podemos añadir una template de dos formas distintas, incluyendo una carpeta en
 el propio entorno donde incluyamos lo necesario para crearla(ejemplos en /packages/backend/templates)
-o importandola desde un repositorio de github, en el siguiente repositorio incluyo un ejemplo de template:
-[text](https://github.com/ManuFernandez03/ProyectoTemplate)
+o importandola desde un repositorio de github, en el siguiente repositorio se incluye un ejemplo de template:
+[click aqui](https://github.com/ManuFernandez03/ProyectoTemplate)
 
 Para poder importar esta template en nuestro proyecto de backstage, debemos iniciar la aplicacion,
 acceder al apartado "create" y una vez ahi acceder a "register existing component", una vez ahi
@@ -35,7 +35,7 @@ https://github.com/ManuFernandez03/ProyectoTemplate/blob/main/template.yaml
 
 Podemos hacer lo mismo para importar otros tipos de componentes, en el siguiente repositorio se 
 incluye lo necesario para importar un grupo y dos sistemas:
-[text](https://github.com/ManuFernandez03/RecursosPrueba)
+[click aqui](https://github.com/ManuFernandez03/RecursosPrueba)
 
 En este caso la URL que necesitaremos sera la siguiente:
 ```sh
