@@ -9,7 +9,13 @@ yarn install
 yarn dev
 ```
 # Entorno de BackStage
-Para poder ejecutar el entorno debes exportar antes las siguientes variables de entorno:
+Lo primero que debemos hacer es ejecutar el siguiente comando desde la carpeta en la que este
+contenido el proyecto:
+```sh
+yarn install
+```
+
+Despues se deben exportarlas las siguientes variables de entorno:
 ```sh
 export NODE_OPTIONS="${NODE_OPTIONS:-} --no-node-snapshot"
 export POSTGRES_HOST="127.0.0.1"
@@ -20,6 +26,11 @@ export GHE_TOKEN=<tu_token_de_github>
 export CLIENT_ID=<tu_client_id_de_github>
 export CLIENT_SECRET=<tu_client_secret_de_github>
 ```
+Una vez se han ejecutado estas instrucciones podemos lanzar el programa desde la carpeta en la que este contenido el proyecto:
+```sh
+yarn dev
+```
+
 # Añadir Template
 Podemos añadir una template de dos formas distintas, incluyendo una carpeta en
 el propio entorno donde incluyamos lo necesario para crearla(ejemplos en /packages/backend/templates)
